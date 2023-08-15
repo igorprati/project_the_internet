@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <title>Project the Internet</title>
+</head>
+<body>
+    <section class="main container">
+        <div class="main__header">
+            <h1>The Internet Story</h1>
+        </div>
+        <div class="main__menu">
+            <ul>
+                <li><a class="btn" href="#1960" onclick="mudarConteudo('1960')" id="1960">Anos 1960</a></li>
+                <li><a class="btn" href="#1970" onclick="mudarConteudo('1970')" id="1970">Anos 1970</a></li>
+                <li><a class="btn" href="#1980" onclick="mudarConteudo('1980')" id="1980">Anos 1980</a></li>
+                <li><a class="btn" href="#1990" onclick="mudarConteudo('1990')" id="1990">Anos 1990</a></li>
+                <li><a class="btn" href="#2000" onclick="mudarConteudo('2000')" id="2000">Anos 2000</a></li>
+            </ul>
+        </div>
+        <div class="main__content">
+            <div class="content content-1960 hidden">
+                <h5 id="content__title">Anos 1960 - Início da Internet:</h5>
+                <p id="content__text">A internet teve suas origens na década de 1960 como uma rede de computadores do Departamento de Defesa dos EUA, chamada ARPANET (Advanced Research Projects AgencyNetwork). Originalmente, a ARPANET foi criada para permitir que cientistas e acadêmicos de diferentes físicos compartilhassem informações e colaborassem em pesquisa.</p>
+            </div>
+            <div class="content content-1970 hidden">
+                <h5 id="content__title">Anos 1970 - Protocolos de Comunicação:</h5>
+                <p id="content__text">Os anos 70 testemunharam o desenvolvimento dos protocolos TCP/IP (Transmission Control Protocol/Internet Protocol), que permitem a transferência de dados entre computadores em redes diferentes. A adoção desses protocolos pela ARPANET em 1983 marcou a operacionalização da internet como a conhecemos hoje.</p>
+            </div>
+            <div class="content content-1980 hidden">
+                <h5 id="content__title">Anos 1980 - Expansão e Comercialização:</h5>
+                <p id="content__text">Durante os anos 80, a internet começou a se expandir além do uso acadêmico e militar, entrando no domínio comercial. Em 1989, a NSF (National Science Foundation) permitiu o uso comercial da internet, resultando em seu rápido crescimento.</p>
+            </div>
+            <div class="content content-1990 hidden">
+                <h5 id="content__title">Anos 1990 - Nascimento da World Wide Web:</h5>
+                <p id="content__text">Em 1991, o CERN (Conselho Europeu para a Pesquisa Nuclear) apresentou ao mundo a World Wide Web, uma rede de hipertexto acessível ao público e projetada para tornar a internet mais fácil de usar. O primeiro navegador web, chamado Mosaic, foi lançado em 1993, tornando a Web mais acessível para o usuário comum.</p>
+            </div>
+            <div class="content content-2000 hidden">
+                <h5 id="content__title">Anos 2000 - Redes Sociais e Vídeos Online:</h5>
+                <p id="content__text">Os anos 2000 foram caracterizados pelo surgimento das redes sociais e do compartilhamento de vídeos online. Sites como Facebook, YouTube e Twitter foram lançados durante esse período, e o acesso à internet em dispositivos móveis começou a se tornar cada vez mais comum.</p>
+            </div>
+        </div>
+        <div class="main__content__footer">
+            <div class="footer__buttons">
+                <a href="" class="btn">Anterior</a>
+                <a href="" class="btn">Próximo</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
